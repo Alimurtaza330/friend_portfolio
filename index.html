@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="inspiring graphic designer specializing in branding, illustration, and visual storytelling. Explore a portfolio showcasing innovative designs that captivate and inspire.">
+    <title>Hassan as a Graphic designer</title>
+    <link rel="icon" type="image/x-icon" href="/img/icons8-artist-48.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3b161c540c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header class="headerContainer">
+        <div class="mylogo" id="movingLogo">
+            Has<span class="logoclr">san</span>
+        </div>
+
+        <nav>
+            <ul>
+                <li onclick="scrollToSection('Home')">Home</li>
+                <li onclick="scrollToSection('about')">About</li>
+                <li onclick="scrollToSection('Skills')">Skills</li>
+                <li onclick="scrollToSection('project')">Project</li>
+                <li onclick="scrollToSection('email')">Email</li>
+            </ul>
+            <div class="icon" id="icon">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- MAIN Banner Section -->
+    <div class="banner" id="Home">
+        <div class="content-box">
+            <div class="text-content">
+                <h1>Hi, I am <span id="typedText"></span></h1>
+                <h3>Welcome to My Portfolio</h3>
+                <p>"Hassan, a visionary graphic designer, crafts captivating visual stories with boundless creativity.
+                    His passion-turned-dedication breathes life into projects, transcending conventional boundaries.
+                    With an innate sense of aesthetics and meticulous attention to detail, Hassan blends colors,
+                    typography, and imagery seamlessly. Each project leaves a lasting impression, showcasing his
+                    commitment to excellence in graphic design."</p>
+                <a id="btn1" href="img/bg.png" download>Download CV</a>
+                <a id="btn2" href="https://wa.me/+923231032003">Hire Me</a>
+                <div class="bannar-social-icons">
+                    <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/?lang=en"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+
+            </div>
+            <div class="image-content">
+                <img src="img/bg.png" alt="Background Image of Hassan">
+            </div>
+        </div>
+    </div>
+
+    <!-- about me section -->
+
+    <div class="about-me-container" id="about">
+        <div class="about-section">
+            <img src="img/1.jpg" alt="Profile Image of Hassan" class="about-me-profile-image" onmouseover="zoomIn(this)"
+                onmouseout="zoomOut(this)">
+            <div class="about-me-content-section">
+                <h2 class="about-me-h1">About Me</h2>
+                <h3 class="about-me-h2">Hassan</h3>
+                <p class="about-me-p">
+                    "Hassan, a versatile graphic designer, excels across diverse design realms. From polished corporate
+                    branding radiating professionalism to delightful illustrations sparking joy, each creation showcases
+                    his ingenious touch. Rooted in purpose and meaning, Hassan meticulously tailors designs to leave a
+                    lasting impact on viewers. 
+                </p>
+                <a id="about-me-btn" href="#" download>Download CV</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Skills section -->
+    <div class="skills-section" id="Skills">
+        <div class="skills-header">
+            <h2>Skills</h2>
+        </div>
+        <div class="skills-container">
+
+            <div class="skills-box">
+                <div class="skills-title">
+                    <div class="skills-img">
+                        <img src="img/adobe_photoshop.png" alt="image of adobe_photoshop" class="skills-icons">
+                    </div>
+                    <h3>Photoshop</h3>
+                </div>
+                <P class="skills-text"> Create gorgeous images, rich graphics, and incredible art. </P>
+            </div>
+
+
+            <div class="skills-box">
+                <div class="skills-title">
+                    <div class="skills-img">
+                        <img src="img/canva.png" alt="image of canvas " class="skills-icons">
+                    </div>
+                    <h3>Canva</h3>
+                </div>
+                <P class="skills-text">Explore your design creativity with Canva, a versatile design and publishing
+                    tool.</P>
+            </div>
+
+
+            <div class="skills-box">
+                <div class="skills-title">
+                    <div class="skills-img">
+                        <img src="img/blender.png" alt="image of blender" class="skills-icons">
+                    </div>
+                    <h3>Blender</h3>
+                </div>
+                <P class="skills-text">Venture into the world of 3D modeling and animation with Blender.</P>
+            </div>
+
+            <div class="skills-box">
+                <div class="skills-title">
+                    <div class="skills-img">
+                        <img src="img/corel-draw.png" alt="image of corel-draw" class="skills-icons">
+                    </div>
+                    <h3>Corel draw</h3>
+                </div>
+                <P class="skills-text">Elevate your vector graphic design with Corel Draw.</P>
+            </div>
+
+            <div class="skills-box">
+                <div class="skills-title">
+                    <div class="skills-img">
+                        <img src="img/autocad.png" alt="image of autocad" class="skills-icons">
+                    </div>
+                    <h3>Autocad</h3>
+                </div>
+                <P class="skills-text">Transform your ideas into precise designs with AutoCAD.</P>
+            </div>
+
+            <div class="skills-box">
+                <div class="skills-title">
+                    <div class="skills-img">
+                        <img src="img/max.jpeg" alt="image of max" class="skills-icons">
+                    </div>
+                    <h3>Max</h3>
+                </div>
+                <P class="skills-text">Dive into the realm of design possibilities with Max.</P>
+            </div>
+        </div>
+    </div>
+
+    <!-- Project Section -->
+
+    <h2 class="main-heading" id="project"> Projects</h2>
+    <div class="cards-list" id="cardsList">
+        <!-- Cards will be dynamically added here using JavaScript -->
+    </div>
+
+    <!-- contact section  -->
+
+    <form action="https://formspree.io/f/xpzgvlpb" method="POST" class="my-form" id="email">
+        <div class="contact-container">
+            <h2>Get in touch!</h2>
+            <ul>
+
+                <li>
+                    <div class="grid grid-2">
+                        <input type="text" id="yourfirstname" name="name" placeholder="Name" required>
+                        <input type="text" id="yourlastname" placeholder="Surname" name="Father_name" required>
+                    </div>
+                </li>
+                <li>
+                    <div class="grid grid-2">
+                        <input type="email" id="youremail" name="Email" placeholder="Email" required>
+                        <input type="tel" id="yournumber" placeholder="Phone" name="Number">
+                    </div>
+                </li>
+                <li>
+                    <textarea id="yourmessage" placeholder="Message" name="Message"></textarea>
+                </li>
+
+                <li>
+                    <div class="grid grid-3">
+                        <div class="required-msg">REQUIRED FIELDS</div>
+                        <button class="btn-grid" type="submit">
+                            <span class="back">
+                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/email-icon.svg"
+                                    alt="email-icon">
+                            </span>
+                            <span class="front">SUBMIT</span>
+                        </button>
+                        <button class="btn-grid" type="reset">
+                            <span class="back">
+                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/eraser-icon.svg"
+                                    alt="eraser-icon">
+                            </span>
+                            <span class="front">RESET</span>
+                        </button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </form>
+
+    <!-- More About me Section  -->
+
+    <div class="more-about-me-container">
+        <h1>More About Me</h1>
+        In the ever-evolving landscape of design, Hassan remains at the forefront, embracing new technologies
+        and trends while staying true to his unique style. His portfolio stands as a testament to his
+        versatility, showcasing a kaleidoscope of projects that illustrate his ability to transform concepts
+        into visual masterpieces.
+    </div>
+    <!-- footer section  -->
+
+
+    <footer class="footer">
+        <div class="container row">
+            <div class="footer-col">
+                <h4>Detail</h4>
+                <ul>
+                    <li onclick="scrollToSection('Home')">Home</li>
+                    <li onclick="scrollToSection('about')">About</li>
+                    <li onclick="scrollToSection('Skills')">Skills</li>
+                    <li onclick="scrollToSection('project')">Project</li>
+                    <li onclick="scrollToSection('email')">Email</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Get help in</h4>
+                <ul>
+                    <li><a href="#">Desiging</a></li>
+                    <li><a href="#">3D Modeling</a></li>
+                    <li><a href="#">Animation</a></li>
+                    <li><a href="#">Architecture</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Online</h4>
+                <ul>
+                    <li><a href="#" download="">Download CV</a></li>
+                    <li><a href="https://wa.me/+923231032003">Whatsapp</a></li>
+                    <li><a href="#">all version</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>follow us</h4>
+                <div class="social-links">
+                    <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/?lang=en"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <p class="cp-text">
+        © Copyright 2023 Made by Ali Murtaza. All rights reserved.
+    </p>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
